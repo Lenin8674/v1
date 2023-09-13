@@ -1,0 +1,11 @@
+E:\Photo\Legit\bin\Debug\Legit.exe.config
+E:\Photo\Legit\bin\Debug\Legit.exe
+E:\Photo\Legit\bin\Debug\Legit.pdb
+E:\Photo\Legit\obj\Debug\Legit.csproj.AssemblyReference.cache
+E:\Photo\Legit\obj\Debug\Legit.csproj.SuggestedBindingRedirects.cache
+E:\Photo\Legit\obj\Debug\Legit.Form1.resources
+E:\Photo\Legit\obj\Debug\Legit.Properties.Resources.resources
+E:\Photo\Legit\obj\Debug\Legit.csproj.GenerateResource.cache
+E:\Photo\Legit\obj\Debug\Legit.csproj.CoreCompileInputs.cache
+E:\Photo\Legit\obj\Debug\Legit.exe
+E:\Photo\Legit\obj\Debug\Legit.pdb
