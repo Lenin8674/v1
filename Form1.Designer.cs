@@ -36,6 +36,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -57,7 +58,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Legit.Properties.Resources.now2;
-            this.pictureBox6.Location = new System.Drawing.Point(347, 126);
+            this.pictureBox6.Location = new System.Drawing.Point(347, 102);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(244, 241);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -69,7 +70,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Legit.Properties.Resources.now1;
-            this.pictureBox5.Location = new System.Drawing.Point(36, 126);
+            this.pictureBox5.Location = new System.Drawing.Point(36, 102);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(244, 241);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,7 +81,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Legit.Properties.Resources.tenager2;
-            this.pictureBox4.Location = new System.Drawing.Point(347, 114);
+            this.pictureBox4.Location = new System.Drawing.Point(347, 102);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(244, 241);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -91,7 +92,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Legit.Properties.Resources.tenager1;
-            this.pictureBox3.Location = new System.Drawing.Point(36, 114);
+            this.pictureBox3.Location = new System.Drawing.Point(36, 102);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(244, 241);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -132,11 +133,22 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(637, 241);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(118, 44);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Фото за 2023 год";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
@@ -167,6 +179,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 

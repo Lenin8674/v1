@@ -37,5 +37,15 @@ namespace Legit
             pictureBox3.Show();
             pictureBox4.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Hide();
+            pictureBox2.Hide();
+            pictureBox3.Hide();
+            pictureBox4.Hide();
+            pictureBox5.Show();
+            pictureBox6.Show();
+        }
     }
 }
